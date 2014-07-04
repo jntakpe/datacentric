@@ -1,0 +1,11 @@
+server:
+  contextPath: /datacentric
+spring:
+  application:
+    name: datacentric
+  thymeleaf:
+    prefix: /WEB-INF/views/
+    cache: false
+management:
+  contextPath: /admin
+debug: false

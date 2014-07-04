@@ -1,0 +1,8 @@
+{
+    "name" : "datacentric",
+    "version" : "1.0.0-SNAPSHOT",
+    "dependencies" : {
+        "jquery": "latest",
+        "angularjs": "latest"
+    }
+}
