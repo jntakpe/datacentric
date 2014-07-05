@@ -21,6 +21,7 @@ public class AccueilController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String display() {
+        categorieRepository.deleteAll();
         System.out.println("findAll before" + categorieRepository.findAll());
         categorieRepository.save(new Categorie("toto"));
         categorieRepository.save(new Categorie("titi"));

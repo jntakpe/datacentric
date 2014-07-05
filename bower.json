@@ -1,10 +1,10 @@
 {
-    "name" : "datacentric",
-    "version" : "1.0.0-SNAPSHOT",
-    "dependencies" : {
+    "name": "datacentric",
+    "version": "1.0.0-SNAPSHOT",
+    "dependencies": {
         "jquery": "latest",
         "bootstrap": "latest",
         "font-awesome": "latest",
-        "angularjs": "latest"
+        "angular": "latest"
     }
 }

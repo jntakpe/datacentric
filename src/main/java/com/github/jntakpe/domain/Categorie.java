@@ -1,6 +1,5 @@
 package com.github.jntakpe.domain;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
@@ -9,23 +8,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
  * @author jntakpe
  */
 @Document
-public class Categorie {
-
-    @Id
-    private String id;
+public class Categorie extends GenericDomain {
 
     private String nom;
 
     public Categorie(String nom) {
         this.nom = nom;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getNom() {
